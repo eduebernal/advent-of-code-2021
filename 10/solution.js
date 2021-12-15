@@ -1,5 +1,5 @@
 const fs = require('fs');
-const rawInput = './D10/input.txt';
+const rawInput = './10/input.txt';
 
     function fileToStr(file){
         return fs.readFileSync(file,'utf8');
